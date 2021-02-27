@@ -91,31 +91,24 @@ header:hover {
 }
 .left h3 .w:hover {
     color: pink;
-    font-size: 33pt;
 }
 .left h3 .e:hover {
     color: pink;
-    font-size: 33pt;
 }
 .left h3 .l:hover {
     color: pink;
-    font-size: 33pt;
 }
 .left h3 .c:hover {
     color: pink;
-    font-size: 33pt;
 }
 .left h3 .o:hover {
     color: pink;
-    font-size: 33pt;
 }
 .left h3 .m:hover {
     color: pink;
-    font-size: 33pt;
 }
 .left h3 .e:hover {
     color: pink;
-    font-size: 33pt;
 }
 
 
@@ -150,23 +143,31 @@ header:hover {
 .right {
     float: right;
     width: 400px;
-    background-color: pink;
     height: fit-content;
     position: relative;
-    top: 350px;
+    top: 250px;
     right: 190px;
     text-transform: capitalize;
 }
 .right h3 {
     text-align: center;
-    font-size: 32pt;
-    padding-bottom: 20px;
+    align-items: center;
+    right: 32px;
+    position: relative;
+    font-size: 30pt;
+    padding-bottom: 15px;
 }
 .email-input {
     padding: 10px;
 }
 .email-input input {
-    padding: 10px 70px;
+    width: 320px;
+    height:40px;
+    padding-left: 3px;
+    border-radius: 7px;
+    border: 1px solid black;
+    background-color: rgba(59, 59, 59, 0.733);
+
 }
 .email {
     padding-bottom: 10px;
@@ -179,4 +180,33 @@ header:hover {
     left: 49px;
     padding-bottom: 15px;
     position: relative;
+}
+.pass-input {
+    padding: 10px;
+}
+.pass-input input {
+    width: 320px;
+    height:40px;
+    padding-left: 3px;
+    border-radius: 7px;
+    border: 1px solid black;
+    background-color: rgba(59, 59, 59, 0.733);
+}
+.password {
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+.right button {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    background-color: pink;
+    cursor: pointer;
+    border-radius: 7px;
+    color: black;
+    font-weight: bold;
+    right: 180px;
 }

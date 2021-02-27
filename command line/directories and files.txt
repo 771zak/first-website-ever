@@ -1,0 +1,6 @@
+Change Directory:                   cd 	OR	 chdir
+move  up one directory:         cd ..
+move  up to root:		           cd \
+make directory: 		           md        OR	 mkdir
+clear screen:			           cls	OR	 clear
+list files and dir: 	                   ls 	        OR 	 dir
