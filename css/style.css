@@ -85,6 +85,7 @@ header:hover {
     padding: 20px;
     font-size: 32pt;
     letter-spacing: -9;
+    cursor: pointer;
 }
 .left h3 :hover {
     cursor: pointer;
