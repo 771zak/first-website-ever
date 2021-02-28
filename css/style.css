@@ -21,10 +21,10 @@ header {
     height: 70px;
     width: 100%;
     background-color: rgba(1, 1, 1, 0.59);
-    box-shadow: 5px 5px 20px salmon;
+    box-shadow: 0px 3px 20px salmon;
 }
 header:hover {
-    box-shadow: 7px 10px 30px salmon;
+    box-shadow: 0px 5px 30px salmon;
 }
 .head {
     position: absolute;
