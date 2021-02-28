@@ -211,3 +211,6 @@ header:hover {
     font-weight: bold;
     right: 180px;
 }
+.right button:hover {
+    background-color: rgb(255, 163, 179);
+}

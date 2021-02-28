@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-1.make the logo the url page
+1.make the logo the url page >>done
 2.make the urls for the heading list
-=======
-1.make the logo the url page
-2.make the urls for the heading list
->>>>>>> 973e07b5df29eb37426f9dd87698129ed17a255b
-3. add urls to buttons
+>make sign up page 
+>make contact page
+>make more.. page
+3. add urls to landing page buttons 
+>> log in button done

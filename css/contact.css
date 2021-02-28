@@ -1,0 +1,79 @@
+* {  /*this to make all the margins 0*/
+    margin: 0;      
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main {
+    background-color: rgba(35, 236, 136, 0.856);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    position: relative;
+    z-index: 8em;
+    box-shadow: 2px 3px 20px rgb(37, 29, 28);
+    background: linear-gradient(108.29deg, rgba(0, 0, 0, 0.71) 2.83%, rgba(45, 42, 42, 0.564484) 85.64%, rgba(88, 82, 82, 0.421952) 108.94%, rgba(92, 86, 86, 0.442708) 145.04%, rgba(0, 0, 0, 0) 195.26%, #000000 195.26%);
+}
+header {
+    position: relative;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(1, 1, 1, 0.59);
+    box-shadow: 0px 3px 20px salmon;
+}
+header:hover {
+    box-shadow: 0px 5px 30px salmon;
+}
+.head {
+    position: absolute;
+    padding: 0px;
+    font-size: 26px;
+    left: 10%;
+    height: fit-content;
+    width: fit-content;
+    padding-top: 12px;
+    font-size: 24pt;
+}
+.head a{
+    text-decoration: none;
+    z-index: 2em;
+    width: fit-content;
+    height: fit-content;
+    mix-blend-mode: normal;
+    text-shadow: 7px 10px 5px rgba(59, 59, 59, 0.733);
+}
+.head a:hover {
+    font-size: 26pt;
+    color: aquamarine;
+}
+.info {
+    float: right;
+
+    height: fit-content;
+    width: fit-content;
+}
+.info ul {
+    display: flex;
+    font-size: 16pt;
+    padding-top: 15px;
+    list-style: none;
+}
+.info ul li {
+    padding-left: 10px;
+    padding-right: 15px;
+    
+}
+.info ul li a {
+    text-decoration: none;
+}
+.info ul li a:hover {
+    font-size: larger;
+    color: aquamarine;
+}
+.info .contact a{
+    font-size: larger;
+    color: aquamarine;
+
+}
