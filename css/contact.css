@@ -77,3 +77,18 @@ header:hover {
     color: aquamarine;
 
 }
+
+/*styling the form*/
+
+.user-input {
+    padding: 10px;
+    padding-top: 200px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.user-input h1 {
+    padding-bottom: 15px;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
