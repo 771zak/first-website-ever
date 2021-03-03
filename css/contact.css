@@ -7,7 +7,7 @@
 }
 .main {
     background-color: rgba(35, 236, 136, 0.856);
-    width: 80%;
+    width: 173.7vh;
     margin-left: auto;
     margin-right: auto;
     height: 100vh;
@@ -82,13 +82,69 @@ header:hover {
 
 .user-input {
     padding: 10px;
-    padding-top: 200px;
+    padding-top: 100px;
     justify-content: center;
     text-align: center;
+    height: fit-content;
     align-items: center;
 }
 .user-input h1 {
     padding-bottom: 15px;
     font-weight: lighter;
     text-transform: capitalize;
+}
+.user-info {
+    padding: 10px;
+}
+.user-info input {
+    width: 250px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 10px;
+    background-color:rgb(37, 29, 28);
+}
+.user-text {
+    margin: 20px;
+}
+.user-text input {
+    width: 300px;
+    padding: 0px 0px 200px 20px;
+    border-radius: 7px;
+    height:270px;
+    padding-top: 2px;
+    background-color: rgba(37, 29, 28);
+}
+.user-input #submit {
+    background-color: pink;
+    width: 90px;
+    height: 30px;
+    padding: px;
+    border-radius: 7px;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#submit:hover {
+    background-color: rgb(255, 173, 187);
+}
+
+/*styling the img links*/
+.SM {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: lighter;
+    margin-top: 50px;
+}
+.imgs img {
+    width: 50px;
+    padding: 0;
+    margin: 15px;
+}
+.imgs img:hover {
+    width: 55px;
+}
+#foot-pic {
+    top: 510px;
+    z-index: -3;
+    position: absolute;
 }
