@@ -7,7 +7,7 @@
 }
 .main {
     background-color: rgba(35, 236, 136, 0.856);
-    width: 173.7vh;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     height: 100vh;
@@ -134,6 +134,10 @@ header:hover {
     text-transform: capitalize;
     font-weight: lighter;
     margin-top: 50px;
+    display: flex-box;
+    
+    align-items: center;
+
 }
 .imgs img {
     width: 50px;
@@ -143,8 +147,12 @@ header:hover {
 .imgs img:hover {
     width: 55px;
 }
+
+/*styling the foot img*/
+
 #foot-pic {
-    top: 510px;
-    z-index: -3;
+    z-index: -9;
     position: absolute;
+    width: 100%;
+    bottom: 0px;
 }
