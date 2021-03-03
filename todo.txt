@@ -1,7 +1,12 @@
 1.make the logo the url page >>done
-2.make the urls for the heading list
->make sign up page 
->make contact page
->make more.. page
-3. add urls to landing page buttons 
+2.make the urls for the heading list >>done 
+3. add urls to landing page buttons >>done
 >> log in button done
+
+4. make the more.. page 
+>>look for a design
+>>link it with the landing page button
+
+5. make the sign-in page 
+>> look for the design 
+>> link it with the landing page form anchor tag 
