@@ -1,0 +1,2 @@
+cat is made to copy and show the file content  
+echo is made to write or over-write in files  
