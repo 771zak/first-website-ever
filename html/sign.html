@@ -13,7 +13,7 @@
             <div class="head"><a href="../index.html">Zak Fo'&lt;CODE&gt;</a></div>
             <div class="info">
                 <ul>
-                    <li class=""><a href="sign.html">Sign-Up</a></li>
+                    <li class="sign-up"><a href="sign.html">Sign-Up</a></li>
                     <li class=""><a href="contact.html">Contact Us</a></li>
                     <li class=""><a href="#">More ..</a></li>
                 </ul>
@@ -23,9 +23,33 @@
             <h1>sign up it's free</h1>
             <div class="form">
                 <form action="">
-                    <label for="fname">first name</label>
-                    <input type="text" name="fname">
+                    <div>
+                        <label for="fname">first name</label><br>
+                        <input type="text" name="fname" placeholder="first name">
+                    </div>
+                    <div>
+                        <label for="lname">last name</label><br>
+                        <input type="text" name="lname" placeholder="last name">
+                    </div>
+                    <div>
+                        <label for="email">e-mail</label><br>
+                        <input type="email" name="email" id="" placeholder="e-mail">
+                    </div>
+                    <div>
+                        <label for="password">password</label><br>
+                        <input type="password" name="password" id="" placeholder="password">
+                    </div>
+                    <div id="agree">
+                        <input type="checkbox" name="agree" id="checkbox">
+                        <label for="agree" class="agree">I agree to <a href="#">terms</a>.</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="submit">
+                    </div>
                 </form>
+                <div style="margin: 10px;">
+                    <h4>already a member <a href="../index.html" style="color: crimson; margin-left: 5px;" target="_top">log in</a></h4>
+                </div>
             </div>
         </div>
         <img src="../Group 2.png" alt="group2" id="foot-pic">
